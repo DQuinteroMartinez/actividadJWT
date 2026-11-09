@@ -77,7 +77,7 @@ public class User implements UserDetails {
 	private boolean enabled;
 	
 	@Column
-	private Integer edad;
+	private String edad;
 	
 	@Column
 	private LocalDate fechaNacimiento;
